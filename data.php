@@ -5,7 +5,7 @@ $servername = '172.17.0.2';
 $username = 'root';
 $password = 'password';
 $database = 'prod_schema';
-$table = 'product';
+$table = 'products';
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
